@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet"/>
+        <title>Music player</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-1/css/all.min.css" integrity="sha512-wDB6AYiYP4FO5Sxieamqy9wtpAY3qdHMqlhZecIEUu1YjkLw5gQf/4ZDgOzmCBAF5SheMjmugkpUSVoUrGbLkQ==" crossorigin="anonymous" />
+    </head>
+    <body>
+ 
+        <div class="main">
+        <div class="container">
+       <h1>Play your favourite tracks</h1>
+       <h3 id="genre">Pop</h3>
+       <audio src="audio/audio1.mp3" id="audio" ></audio>
+       <div class="images">
+        <img src="images/img1.jpeg" alt="music-cover" id="cover"> 
+
+
+       
+       <input id="range"type="range" min="0" max="100" value="80" class="volume"> 
+       <div class="buttons">
+       <button id="pre"> <i class="fas fa-backward" id="pre" title="previous"></i></button><!-- previous button-->
+        <button id="play"><i class="fas fa-play" id="play" title="play"></i></button><!-- play button-->
+        <button id="next"><i class="fas fa-forward" id="next" title="forward"></i></button><!-- next button-->
+
+    </div>
+       
+
+       </div>
+
+        
+
+
+
+        </div>
+
+
+       
+
+
+
+
+
+
+
+
+
+    <script src="js/audio.js"></script>
+    </body>
+</html>
