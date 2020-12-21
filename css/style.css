@@ -16,7 +16,7 @@ body{
     width: 300px;
     border-radius: 8px;
     background-color: lightgrey;
-    box-shadow: 0 20px 20px 0 rgba(252,169,169, 0.6);
+    box-shadow: 0 20px 20px 0 rgba(252,169,169, 0.7);
     text-align: center;
     font-family: fantasy;
 }
@@ -56,4 +56,26 @@ body{
     background-color: lightgrey;
     box-shadow: inset 0 20px 20px 0 rgba(252,169,169, 0.6);
 
+}
+.volume{
+    width: 70%;
+    -webkit-appearance: none;
+    appearance: none;
+    background:smokewhite;
+    box-shadow: 0 20px 20px 0 rgba(252,169,169, 0.4);
+    border-radius: 25px;
+    margin-bottom: 12px;
+
+}
+.volume::-webkit-scrollbar-thumb{
+    appearance: none;
+    background-color: gray;
+    box-shadow: 0 20px 20px 0 rgba(252,169,169, 0.6);
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+.volume::-moz-range-thumb{
+    width: 50px;
+    height: 50px;
 }
